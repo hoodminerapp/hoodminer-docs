@@ -19,6 +19,7 @@ No claiming step, no pending balance, no waiting for a payout run. The referral 
 
 * **Rate:** 12% of every deposit made through your link — not just the first one. Your referral keeps paying every time they top up.
 * **Paid in:** ETH, directly to your wallet.
+* **Eligibility:** your link only pays once you own Hoods yourself — you must have made at least one deposit of any size. A link from someone who has never deposited is simply ignored (the deposit still goes through; the 12% stays in the pool), and it can still lock in on the player's next top-up once you've joined.
 * **Tiers:** **One level only.** You earn from the players you personally invite — never from *their* invites. HoodMiner is not a multi-level scheme, and we consider that a feature: every reward in the system traces back to one real invitation.
 * **Limits:** None. Invite one friend or one thousand. What you earn is yours — withdraw it, or deposit it back into Hoods and let it compound.
 

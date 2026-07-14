@@ -29,6 +29,10 @@ HoodMiner deliberately punishes greed and rewards patience:
 
 This protects the pool for everyone. Whales cannot drain the contract at full rate, and steady players are never diluted by someone else's exit.
 
+{% hint style="warning" %}
+**Straight talk on the decay:** the rate decay is tracked per wallet. Someone determined enough to split a stake across many wallets and rotate their claims can sidestep the per-wallet penalty — that's true of any per-address throttle on a public chain, and we'd rather say it than pretend otherwise. The decay is a pacing incentive for normal play, not what keeps the pool solvent: solvency comes from the payout math itself, which can only ever pay a fraction of what the pool holds, no matter how many wallets claim at once.
+{% endhint %}
+
 ## The recommended strategy: 6 + 1
 
 The math favors one simple routine:
