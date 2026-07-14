@@ -1,0 +1,6 @@
+# contract project lives in its own private repo (hoodminer-contracts)
+contracts/
+
+# local scratch files
+gitbook.rar
+Proyecto nuevo.png
