@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-label="HoodMiner banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08301f"/>
+      <stop offset="0.55" stop-color="#0d4a2e"/>
+      <stop offset="1" stop-color="#083824"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="1" stop-color="#d9a52c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00c805" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00c805" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="480" fill="url(#bg)"/>
+  <circle cx="1000" cy="320" r="300" fill="url(#glow)"/>
+
+  <!-- faint forest silhouettes -->
+  <g fill="#062b1b" opacity="0.8">
+    <polygon points="20,480 90,300 160,480"/>
+    <polygon points="120,480 200,260 280,480"/>
+    <polygon points="1040,480 1110,300 1180,480"/>
+    <polygon points="1120,480 1180,280 1240,480"/>
+  </g>
+
+  <!-- hooded figure mark -->
+  <g transform="translate(120,80)">
+    <path d="M60 150 Q60 40 120 18 Q180 40 180 150 Q150 132 120 132 Q90 132 60 150 Z" fill="#0a5c38" stroke="#00c805" stroke-width="5"/>
+    <path d="M88 118 Q120 96 152 118 Q152 150 120 150 Q88 150 88 118 Z" fill="#062b1b"/>
+    <!-- feather -->
+    <path d="M150 30 Q185 -8 196 6 Q192 42 158 52 Z" fill="#00c805"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="320" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="92" font-weight="800" letter-spacing="2" fill="#ffffff">HOOD<tspan fill="#00c805">MINER</tspan></text>
+  <text x="324" y="205" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="3" fill="#bfe8c9">TAKE FROM THE POOL. GIVE TO THE PLAYERS.</text>
+
+  <!-- chain badge -->
+  <g transform="translate(324,240)">
+    <rect width="330" height="52" rx="26" fill="#062b1b" stroke="#00c805" stroke-width="3"/>
+    <circle cx="30" cy="26" r="12" fill="#00c805"/>
+    <text x="56" y="35" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#eafff0">ON ROBINHOOD CHAIN</text>
+  </g>
+
+  <!-- target -->
+  <g transform="translate(1000,320)">
+    <circle r="95" fill="#f4efe3"/>
+    <circle r="75" fill="#c0392b"/>
+    <circle r="55" fill="#f4efe3"/>
+    <circle r="35" fill="#c0392b"/>
+    <circle r="16" fill="#f4efe3"/>
+    <circle r="16" fill="none" stroke="#062b1b" stroke-width="3"/>
+    <circle r="95" fill="none" stroke="#062b1b" stroke-width="4"/>
+  </g>
+
+  <!-- arrow hitting bullseye -->
+  <line x1="620" y1="430" x2="988" y2="326" stroke="#e8dcc0" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="1002,320 976,336 984,312" fill="#9aa7b0"/>
+  <g fill="#00c805">
+    <polygon points="620,430 588,420 608,446"/>
+    <polygon points="644,423 612,413 632,439"/>
+  </g>
+
+  <!-- gold coins -->
+  <g>
+    <g transform="translate(700,415)">
+      <ellipse rx="44" ry="38" fill="url(#coin)" stroke="#8a6a14" stroke-width="4"/>
+      <text x="0" y="13" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#8a6a14">Ξ</text>
+    </g>
+    <g transform="translate(790,432)">
+      <ellipse rx="44" ry="38" fill="url(#coin)" stroke="#8a6a14" stroke-width="4"/>
+      <text x="0" y="13" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#8a6a14">Ξ</text>
+    </g>
+    <g transform="translate(880,420)">
+      <ellipse rx="44" ry="38" fill="url(#coin)" stroke="#8a6a14" stroke-width="4"/>
+      <text x="0" y="13" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#8a6a14">Ξ</text>
+    </g>
+  </g>
+</svg>
