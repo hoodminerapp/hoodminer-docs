@@ -50,6 +50,7 @@ Each mechanism plugs a hole that killed earlier miner games on other chains:
 | Fee-free compounding | Optimal play being too expensive to execute |
 | Single-tier referrals | Pyramid leakage draining the pool |
 | 5% in/out fee | Zero-cost wash cycling through the contract |
+| 12.5-day accrual cap | Dormant wallets building unbounded claims against the pool |
 
 ## The honest paragraph
 

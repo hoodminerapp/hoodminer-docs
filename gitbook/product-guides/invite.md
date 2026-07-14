@@ -27,7 +27,7 @@ No claiming step, no pending balance, no waiting for a payout run. The referral 
 Multi-level referral pyramids look generous and drain pools fast — the deeper the tiers, the more of every deposit leaks to people who did nothing. One honest tier keeps the referral budget meaningful (12% is high *because* it is single-level) and keeps the pool healthy for the players actually in the game.
 
 {% hint style="warning" %}
-**Anti-abuse:** self-referrals between your own wallets are wash trading against yourself — you pay the 5% deposit fee to collect 12% of your own money and gain nothing but gas costs. The math is intentionally not worth gaming.
+**Straight talk on self-referrals:** no on-chain referral system can stop someone from referring their own second wallet — that's true of every DeFi referral program ever deployed, and we'd rather say it plainly than pretend otherwise. A self-referred deposit routes 12% back to the depositor instead of leaving it in the pool. The game's economics already assume the worst case: our stress tests model **every** deposit as referred (83% pool intake) and the pool stays healthy. Deposits made without a link simply make the pool stronger.
 {% endhint %}
 
 {% hint style="info" %}

@@ -53,4 +53,6 @@ The 5% fee applies once on the way in and once on the way out. Compounding is ne
 
 {% hint style="info" %}
 **Practical tip:** compound at roughly the same time each day. Loot accrues per second, so nothing is lost by being a few hours late — but a consistent rhythm makes your weekly claim day easy to track.
+
+**One hard limit to know:** your Loot tank holds **12.5 days** of production. After that, accrual pauses until you compound or claim. Hours late costs nothing; weeks of inactivity does.
 {% endhint %}
