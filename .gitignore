@@ -1,6 +1,9 @@
 # contract project lives in its own private repo (hoodminer-contracts)
 contracts/
 
+# web app (site + ops panel) lives in its own private repo (hoodminer-app)
+app/
+
 # local scratch files
 gitbook.rar
 Proyecto nuevo.png
