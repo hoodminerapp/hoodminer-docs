@@ -1,3 +1,8 @@
+---
+cover: .gitbook/assets/hoodminer-cover.png
+coverY: 0
+---
+
 # 🏹 Welcome to HoodMiner
 
 ## [HoodMiner](use-cases/official-links.md) is an innovative DeFi project on Robinhood Chain, with a daily income of up to 8%, and a referral bonus of 12%.

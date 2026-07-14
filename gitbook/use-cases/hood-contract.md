@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/hoodminer-cover.png
+coverY: 0
+---
+
 # 📜 The Hood Contract
 
 One contract runs the entire game. This page is the single source of truth for its address — check everything against it.

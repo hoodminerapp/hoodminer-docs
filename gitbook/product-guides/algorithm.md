@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/hoodminer-cover.png
+coverY: 0
+---
+
 # ⚙️ The Algorithm
 
 This page explains how the HoodMiner contract actually prices Hoods and pays Loot. No hand-waving — this is the machine under the hood.

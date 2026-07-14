@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/hoodminer-cover.png
+coverY: 0
+---
+
 # 💰 Take the Loot
 
 Your Hoods generate **Loot** every second. This page explains the two things you can do with it — and why the timing of your choice decides how much you earn.

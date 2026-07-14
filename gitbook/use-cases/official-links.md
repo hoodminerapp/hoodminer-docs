@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/hoodminer-cover.png
+coverY: 0
+---
+
 # 🔗 Official Links
 
 These are the **only** official HoodMiner channels. If a link is not on this page, it is not ours — no exceptions.

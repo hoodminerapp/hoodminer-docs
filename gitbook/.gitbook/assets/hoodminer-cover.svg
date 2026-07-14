@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1990 480" role="img" aria-label="HoodMiner cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07281a"/>
+      <stop offset="0.5" stop-color="#0d4a2e"/>
+      <stop offset="1" stop-color="#072e1d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00c805" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#00c805" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="1" stop-color="#d9a52c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1990" height="480" fill="url(#bg)"/>
+  <ellipse cx="995" cy="240" rx="700" ry="320" fill="url(#glow)"/>
+
+  <!-- forest silhouettes, far edges (safe to crop) -->
+  <g fill="#052318" opacity="0.9">
+    <polygon points="60,480 150,240 240,480"/>
+    <polygon points="200,480 300,180 400,480"/>
+    <polygon points="340,480 420,280 500,480"/>
+    <polygon points="1490,480 1570,280 1650,480"/>
+    <polygon points="1590,480 1690,180 1790,480"/>
+    <polygon points="1750,480 1840,240 1930,480"/>
+  </g>
+
+  <!-- scattered coins low, mid-field -->
+  <g opacity="0.9">
+    <g transform="translate(620,430)">
+      <ellipse rx="34" ry="28" fill="url(#coin)" stroke="#8a6a14" stroke-width="3"/>
+      <text x="0" y="10" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#8a6a14">Ξ</text>
+    </g>
+    <g transform="translate(1330,438)">
+      <ellipse rx="34" ry="28" fill="url(#coin)" stroke="#8a6a14" stroke-width="3"/>
+      <text x="0" y="10" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#8a6a14">Ξ</text>
+    </g>
+    <g transform="translate(1410,420)">
+      <ellipse rx="30" ry="25" fill="url(#coin)" stroke="#8a6a14" stroke-width="3"/>
+      <text x="0" y="9" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#8a6a14">Ξ</text>
+    </g>
+  </g>
+
+  <!-- hooded figure mark, left of center -->
+  <g transform="translate(700,120) scale(0.9)">
+    <path d="M60 150 Q60 40 120 18 Q180 40 180 150 Q150 132 120 132 Q90 132 60 150 Z" fill="#0a5c38" stroke="#00c805" stroke-width="5"/>
+    <path d="M88 118 Q120 96 152 118 Q152 150 120 150 Q88 150 88 118 Z" fill="#062b1b"/>
+    <path d="M150 30 Q185 -8 196 6 Q192 42 158 52 Z" fill="#00c805"/>
+  </g>
+
+  <!-- wordmark, centered -->
+  <text x="900" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="88" font-weight="800" letter-spacing="2" fill="#ffffff">HOOD<tspan fill="#00c805">MINER</tspan></text>
+  <text x="902" y="272" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="600" letter-spacing="3" fill="#bfe8c9">TAKE FROM THE POOL. GIVE TO THE PLAYERS.</text>
+
+  <!-- arrow underline flourish -->
+  <line x1="902" y1="300" x2="1424" y2="300" stroke="#00c805" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="1444,300 1414,289 1414,311" fill="#00c805"/>
+  <g fill="#00c805">
+    <polygon points="902,300 878,290 892,300 878,310"/>
+  </g>
+</svg>

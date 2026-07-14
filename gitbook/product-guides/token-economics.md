@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/hoodminer-cover.png
+coverY: 0
+---
+
 # 🪙 Token Economics
 
 ## HoodMiner has no token. On purpose.
