@@ -5,7 +5,7 @@ coverY: 0
 
 # 🤝 Invite
 
-Robin Hood was nothing without his band. Neither is HoodMiner — the game grows when players bring players. The referral system pays you for exactly that, instantly and on-chain.
+HoodMiner grows when players bring players. The referral system pays you for exactly that, instantly and on-chain.
 
 ## How it works
 
