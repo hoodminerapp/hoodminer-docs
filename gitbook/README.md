@@ -32,7 +32,7 @@ And let's be honest: a Robin Hood game belongs on Robinhood Chain. The arrow aim
 2. **Connect your wallet** at the official dApp — see [Official Links](use-cases/official-links.md). Bookmark it; never trust links from DMs.
 3. **Recruit Hoods** — deposit ETH; the contract converts it to Hoods instantly.
 4. **Compound or claim** — grow the band or [take the Loot](product-guides/take-the-loot.md). Your call, every day.
-5. **Rally the Merry Men** — share your referral link and earn [12% of every deposit](product-guides/invite.md) made through it, instantly.
+5. **Invite** — share your referral link and earn [12% of every deposit](product-guides/invite.md) made through it, instantly.
 
 {% hint style="warning" %}
 HoodMiner is an independent community project. It is **not affiliated with, endorsed by, or connected to Robinhood Markets, Inc.** in any way. We simply build on Robinhood Chain.

@@ -3,7 +3,7 @@ cover: ../.gitbook/assets/hoodminer-cover.png
 coverY: 0
 ---
 
-# 🤝 Rally the Merry Men
+# 🤝 Invite
 
 Robin Hood was nothing without his band. Neither is HoodMiner — the game grows when players bring players. The referral system pays you for exactly that, instantly and on-chain.
 

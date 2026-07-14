@@ -5,7 +5,7 @@
 ## Product Guides
 
 * [💰 Take the Loot](product-guides/take-the-loot.md)
-* [🤝 Rally the Merry Men](product-guides/invite.md)
+* [🤝 Invite](product-guides/invite.md)
 * [🪙 Token Economics](product-guides/token-economics.md)
 * [⚙️ The Algorithm](product-guides/algorithm.md)
 
