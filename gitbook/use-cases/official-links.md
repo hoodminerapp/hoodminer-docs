@@ -11,7 +11,7 @@ These are the **only** official HoodMiner channels. If a link is not on this pag
 | --- | --- |
 | 🌐 **dApp** | [hoodminer.app](https://hoodminer.app) |
 | 🐦 **Twitter / X** | [x.com/hoodminerapp](https://x.com/hoodminerapp) |
-| 💬 **Telegram** | *(TBA — will be announced here and on X)* |
+| 💬 **Telegram** | [t.me/hoodminerportal](https://t.me/hoodminerportal) |
 | 📖 **GitBook** | This documentation |
 | 📜 **Contract** | See [The Hood Contract](hood-contract.md) |
 
@@ -24,4 +24,4 @@ These are the **only** official HoodMiner channels. If a link is not on this pag
 * Bookmark the dApp. Never click "HoodMiner" links from search ads, DMs, or unofficial groups.
 {% endhint %}
 
-Found a fake site, token, or impersonator? Report it to [@hoodminerapp](https://x.com/hoodminerapp) on X — the fastest way to protect the next player.
+Found a fake site, token, or impersonator? Report it in the [official Telegram](https://t.me/hoodminerportal) or to [@hoodminerapp](https://x.com/hoodminerapp) on X — the fastest way to protect the next player.
