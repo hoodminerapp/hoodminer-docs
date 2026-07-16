@@ -54,7 +54,7 @@ Their GitBook contradicts itself (8% daily on one page, 12% on another; "no fee 
 ## Still TBA (update docs at launch)
 
 - [ ] Contract address + explorer link → `use-cases/hood-contract.md`
-- [ ] dApp URL, Twitter/X, Telegram → `use-cases/official-links.md`
+- [ ] dApp URL, Twitter/X → `use-cases/official-links.md` (no Telegram — X is the only social channel)
 - [ ] Verify final contract parameters match the table above (rates, fees, decay curve)
 - [ ] Bridge guide link in the Quick start section
 
