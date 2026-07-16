@@ -41,7 +41,7 @@ The math favors one simple routine:
 
 * Six compounds grow your Hood count all week, raising every future day's output.
 * One weekly claim keeps your rate decay minimal.
-* Played this way, most players recover their initial deposit in roughly **two weeks**, and everything after that is profit riding on a bigger stack of Hoods than they started with — in $HOOD terms; the market decides what each token is worth on the day you claim.
+* Played this way, most players recover their initial deposit within **2–3 weeks**, and everything after that is profit riding on a bigger stack of Hoods than they started with — in $HOOD terms; the market decides what each token is worth on the day you claim.
 
 You are free to play differently — the contract enforces no schedule. But the 6 + 1 rhythm is the efficiency sweet spot the algorithm was tuned around.
 
