@@ -10,17 +10,19 @@ These are the **only** official HoodMiner channels. If a link is not on this pag
 | Channel | Link |
 | --- | --- |
 | 🌐 **dApp** | [hoodminer.app](https://hoodminer.app) |
+| 🪙 **$HOOD token** | *(TBA — address published in* [*The Hood Contract*](hood-contract.md) *at launch)* |
+| 🚀 **Launchpad** | [pons.family](https://pons.family) — the only place $HOOD launches |
 | 🐦 **Twitter / X** | [x.com/hoodminerapp](https://x.com/hoodminerapp) |
 | 💬 **Telegram** | [t.me/hoodminerportal](https://t.me/hoodminerportal) |
 | 📖 **GitBook** | This documentation |
-| 📜 **Contract** | See [The Hood Contract](hood-contract.md) |
+| 📜 **Contracts** | See [The Hood Contract](hood-contract.md) |
 
 {% hint style="warning" %}
 **Stay sharp out there:**
 
 * Team members will **never DM you first** — not on Telegram, not on X, not anywhere.
 * We will never ask for your seed phrase, private key, or a "verification" transaction.
-* There is **no HoodMiner token** — anything listed on a DEX under our name is a scam. See [Token Economics](../product-guides/token-economics.md).
+* There is exactly **one $HOOD token** — the address in [The Hood Contract](hood-contract.md). Until it is published there, no token exists, and anything launched under our name is a scam. See [The $HOOD Token](../product-guides/token-economics.md).
 * Bookmark the dApp. Never click "HoodMiner" links from search ads, DMs, or unofficial groups.
 {% endhint %}
 

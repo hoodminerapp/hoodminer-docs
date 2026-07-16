@@ -3,41 +3,47 @@ cover: .gitbook/assets/hoodminer-cover.png
 coverY: 0
 ---
 
-# 🏹 Welcome to HoodMiner
+# ⛏️ Welcome to HoodMiner
 
-## [HoodMiner](use-cases/official-links.md) is an innovative DeFi project on Robinhood Chain, with a daily income of up to 8%, and a referral bonus of 12%.
+## [HoodMiner](use-cases/official-links.md) is the mining game of Robinhood Chain: hold $HOOD, recruit Hoods, and earn up to 12% a day.
 
-* **We compare ETH to "Loot"**
+Three words run the whole game:
 
-1. **What are "Hoods"?**\
-   "Hoods" are the miners that are recruited with ETH and work around the clock to earn your rewards. It's simply the name we've chosen for them — every Hood you own mines non-stop, and the Loot it produces is yours.
-2. **Hoods have no price**\
-   Hoods don't have a fixed price. The number of Hoods per ETH varies based on the Total Value Locked (TVL) — higher TVL means fewer Hoods per ETH, while lower TVL means more Hoods. This creates a level playing field so that no player can be disadvantaged, and it's why there is no calculator: the dApp always shows exactly how many Hoods your deposit recruits *before* you confirm.
+1. **What is $HOOD?**\
+   The project token — fair-launched on [pons.family](https://pons.family), fixed supply, no presale, no team allocation. Every part of the game is denominated in it: you deposit $HOOD, you earn $HOOD. The only official token address lives in [The Hood Contract](use-cases/hood-contract.md).
+2. **What are "Hoods"?**\
+   Hoods are the miners you recruit with $HOOD. They work around the clock — every Hood you own mines non-stop, and the **Loot** it produces is yours to compound or claim.
 3. **My daily percentage?**\
-   The daily percentage can reach up to 12%. This depends on your profit-taking habits, the time at which you compound your Loot or deposit ETH, as well as the fluctuation of the TVL. The average daily return is 6 to 8%. The full mechanics are in [The Algorithm](product-guides/algorithm.md).
+   Up to **12% per day**, depending on your habits: compounding pushes your rate toward the cap, claiming decays it temporarily. The realistic average is 8–10%. Full mechanics in [The Algorithm](product-guides/algorithm.md).
 
 ![HoodMiner — take from the pool, give to the players](.gitbook/assets/hoodminer-banner.svg)
+
+## The flywheel
+
+Every trade of $HOOD — on the pons curve or the DEX after graduation — pays a creator fee. Half of HoodMiner's share **buys $HOOD back forever**: half of every buyback is **burned** (the supply is fixed, so it only ever shrinks), the other half is **deposited into the mine's pool**, paying the miners. The rest funds development and marketing.
+
+Trading volume feeds the mine. The mine locks supply out of the float. That is the loop.
 
 ## Why Robinhood Chain?
 
 * **Fees measured in cents** — compounding every day is actually viable, unlike on mainnet.
-* **Ethereum security** — Robinhood Chain settles to Ethereum; your ETH is real ETH.
-* **A brand-new frontier** — new chain, no established miner game, first-mover Loot for everyone reading this early.
+* **Ethereum security** — Robinhood Chain settles to Ethereum.
+* **A brand-new frontier** — new chain, new attention, and no established mining game. First-mover Loot for everyone reading this early.
 
 And the name? It comes from the chain: HoodMiner is the miner game built for Robinhood Chain.
 
 ## How to start
 
 1. **Bridge ETH** to Robinhood Chain (guide in the dApp).
-2. **Connect your wallet** at the official dApp — see [Official Links](use-cases/official-links.md). Bookmark it; never trust links from DMs.
-3. **Recruit Hoods** — deposit ETH; the contract converts it to Hoods instantly.
-4. **Compound or claim** — grow your Hoods or [take the Loot](product-guides/take-the-loot.md). Your call, every day.
-5. **Invite** — share your referral link and earn [12% of every deposit](product-guides/invite.md) made through it, instantly.
+2. **Buy $HOOD** — on [pons.family](https://pons.family) while the token is on the curve, or on the DEX after graduation. Only use the address published in [The Hood Contract](use-cases/hood-contract.md).
+3. **Connect your wallet** at the official dApp — see [Official Links](use-cases/official-links.md). Bookmark it; never trust links from DMs.
+4. **Recruit Hoods** — approve and deposit $HOOD; the contract converts it to Hoods instantly.
+5. **Compound or claim** — grow your Hoods or [take the Loot](product-guides/take-the-loot.md). Your call, every day.
 
 {% hint style="warning" %}
 HoodMiner is an independent community project. It is **not affiliated with, endorsed by, or connected to Robinhood Markets, Inc.** in any way. We simply build on Robinhood Chain.
 {% endhint %}
 
 {% hint style="danger" %}
-**Read this before you deposit.** All rewards are paid from the contract balance — the shared pool of deposits and compounded fees. Rates are variable, not guaranteed, and withdrawals are only possible while the pool holds ETH. Never deposit more than you can afford to lose. This is a game, not a savings account.
+**Read this before you buy or deposit.** All mining rewards are paid in $HOOD from the contract's pool — a shared pot of deposits, plus buyback top-ups. Rates are variable, not guaranteed, and claims are only possible while the pool holds $HOOD. The market price of $HOOD is set by traders, not by us — your yield is denominated in tokens, not dollars. Never put in more than you can afford to lose. This is a game, not a savings account.
 {% endhint %}

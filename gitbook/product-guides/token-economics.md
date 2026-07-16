@@ -3,44 +3,68 @@ cover: ../.gitbook/assets/hoodminer-cover.png
 coverY: 0
 ---
 
-# 🪙 Token Economics
+# 🪙 The $HOOD Token
 
-## HoodMiner has no token. On purpose.
+## One token. One address. Nothing else.
 
-Let's be completely clear, because this is where players get hurt:
+$HOOD is the only asset HoodMiner will ever issue, and its address is published in exactly one place: [The Hood Contract](../use-cases/hood-contract.md).
 
 {% hint style="danger" %}
-**There is no $HOOD token. There is no $LOOT token. There is no presale, no airdrop, no "early allocation."**
-
-Any token claiming to be affiliated with HoodMiner is a **scam**, without exception. If you see one — on a DEX, in a Telegram group, in your DMs — do not buy it, and report it in our official channels.
+**There is exactly one $HOOD token** — the address on that page, character for character. There is no presale, no "early allocation," no second token, no v2. Anything else carrying our name — on a DEX, in a Telegram group, in your DMs — is a **scam**, without exception.
 {% endhint %}
 
-## The economy runs on ETH
+## How it launches
 
-HoodMiner is a **farm, not a token project**. The entire economy is denominated in ETH on Robinhood Chain:
+* **Fair launch on [pons.family](https://pons.family)** — the leading launchpad on Robinhood Chain. Everyone buys on the same public bonding curve, starting from zero.
+* **Fixed supply.** The pons factory mints the entire supply at launch. No mint function, no inflation, ever. Burns only shrink it.
+* **No team allocation.** The team buys at launch on the open curve like everyone else, from a wallet published in [The Hood Contract](../use-cases/hood-contract.md).
+* **Graduation.** When the curve completes, liquidity migrates to the DEX per pons's standard, non-custodial process — not controlled by us.
 
-* You **deposit ETH** to recruit Hoods.
-* Hoods generate **Loot** — an internal accounting unit inside the contract, not a transferable token. Loot cannot be bought on a DEX, sent to another wallet, or listed anywhere. It exists only as your balance inside the HoodMiner contract.
-* You **claim ETH** when you sell Loot back to the contract.
+## The economy runs on $HOOD
 
-This design removes an entire category of risk. There is no token price to crash, no liquidity pool to pull, no team allocation to dump on you. The only asset in the system is ETH, and the only place it lives is the immutable contract.
+HoodMiner is a **mine denominated in its own token**:
+
+* You **deposit $HOOD** to recruit Hoods.
+* Hoods generate **Loot** — an internal accounting unit inside the mine contract, not a transferable token. Loot cannot be sent, sold or listed; it exists only as your balance inside the mine.
+* You **claim $HOOD** when you sell Loot back to the contract — paid from the mine's pool, instantly.
+
+One asset, one pool, one set of rules. Because the game and the market share the same token, there is nothing to arbitrage between them — the only way value leaves the mine is a claim, and claims are paced by [the algorithm](algorithm.md).
 
 ## Where the money flows
 
-Every ETH that enters HoodMiner goes to exactly one of three places:
+**Every deposit** into the mine splits two ways:
 
 | Destination | Share | Purpose |
 | --- | --- | --- |
-| **The pool** (contract balance) | 83% | Backs all Loot claims — this is what players withdraw from |
-| **Referrer** | 12% | Paid instantly to the inviter, if the deposit used a referral link |
+| **The pool** (mine contract balance) | 95% | Backs all Loot claims — this is what miners withdraw from |
 | **Protocol fee** | 5% | Development, marketing, and keeping the lights on |
 
-On the way out, a **5% protocol fee** applies to claims. Deposits made without a referral link send the 12% referral share to the pool instead — making un-referred deposits slightly *better* for the game's health.
+On the way out, a **5% protocol fee** applies to claims. Compounding is always free.
+
+**Every trade** of $HOOD — curve or DEX — pays a creator fee to the project. It is split at the wallet level, verifiably on-chain:
+
+| Destination | Share | Purpose |
+| --- | --- | --- |
+| **Buyback** | 50% | Market-buys $HOOD: half of every buyback is **burned**, half is **deposited into the pool** |
+| **Treasury** | 50% | Development, marketing, and operations |
+
+## The flywheel
+
+The buyback split is what makes HoodMiner more than a shared pot:
+
+```
+volume (curve/DEX) → creator fees → buy $HOOD → 50% burned  (fixed supply shrinks)
+                                              → 50% to pool (miners get paid)
+          miners deposit → supply locked in the mine → thinner float
+```
+
+Speculators who never touch the mine still pay the miners. Miners who never sell still tighten the float. Neither side needs to believe in the other — the contract routes the value anyway.
 
 ## Sustainability, stated honestly
 
-HoodMiner does not print yield from nowhere, and we won't pretend it does. Rewards are paid from the contract balance, which grows through **new deposits and compounded Loot** and shrinks through **claims**. The mechanics — TVL-based Hood pricing, claim decay, fee-free compounding, single-tier referrals — all exist to push the pool toward growth and slow its drain. The game is sustainable as long as TVL is, and no one can promise you TVL. Anyone who tells you otherwise is selling something.
+HoodMiner does not print yield from nowhere, and we won't pretend it does. Two separate layers of risk, in plain words:
 
-## The future
+* **The pool.** Mining rewards are paid from the mine's $HOOD balance, which grows through deposits, compounds and buyback top-ups, and shrinks through claims. The mechanics — TVL-based Hood pricing, claim decay, fee-free compounding, the accrual cap — all exist to push the pool toward growth and slow its drain. The mine is sustainable as long as its inflows are, and no one can promise you inflows.
+* **The price.** Your yield is denominated in $HOOD. What a claimed token is *worth* is decided by the open market, minute by minute — not by the algorithm, and not by us. The buyback engine adds permanent, volume-funded buy pressure; it does not repeal supply and demand.
 
-If HoodMiner ever expands beyond the farm — and we intend it to become a serious financial dApp on Robinhood Chain — any such step will be announced **exclusively** through the channels listed in [Official Links](../use-cases/official-links.md), and documented here first. Until you read it in this GitBook, it doesn't exist.
+Anyone who tells you otherwise is selling something.
